@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Día de San Valentín!</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 36px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .card {
+            width: 300px;
+            height: 300px;
+            border: 5px solid white;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            transition: transform 0.5s;
+        }
+
+        .card:hover p {
+            transform: translateY(-100%);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz San Valentín, cariño!🌺</h1>
+    <div class="container">
+        <div class="card">
+            <img src="Imagenes/IMG_20231009_155223.jpg">
+            <p>Te quiero más que a nada en el mundo</p>
+        </div>
+        <div class="card">
+            <img src="Imagenes/IMG_20231029_114707.jpg">
+            <p>Tengo mucha suerte de haberte conocido</p>
+        </div>
+        <div class="card">
+            <img src="Imagenes/IMG_20231105_183306.jpg">
+            <p>Me haces feliz cada día con tu sonrisa</p>
+        </div>
+        <div class="card">
+            <img src="Imagenes/IMG_20231208_201607.jpg">
+            <p>Me encanta vivir aventuras contigo</p>
+        </div>
+        <div class="card">
+            <img src="Imagenes/IMG_20231214_204019.jpg">
+            <p>Te adoro por cómo eres, por cómo me haces sentir</p>
+        </div>
+        <div class="card">
+            <img src="Imagenes/IMG_20231228_182425.jpg">
+            <p>No hay nada mejor que estar a tu lado</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="Imagenes/IMG_20230410_174758.jpg">
+            <p>Por toda una vida juntos🎇</p>
+        </div>
+    </div>
+    <div>
+        <p style="padding-left: 8%;"><span class="heart">♥</span> Para mi princesa,</p>
+            <p style="padding: 0% 8%">Quiero que sepas lo mucho que significas para mí y cuánto te quiero. Desde el momento en que te conocí, supe que eras especial y que nuestra conexión era única.</p>
+            <p style="padding: 0% 8%">Eres mi inspiración, mi compañera y mi mejor amiga. No puedo imaginar mi vida sin ti.</p>
+            <p style="padding: 0% 8%">Espero que sepas lo afortunado que me siento de tenerte a mi lado.</p>
+            <p style="padding: 0% 8%">Te amo más de lo que las palabras pueden expresar.</p>
+            <p style="padding: 0% 8%">Con todo mi amor,</p>
+            <p style="padding: 0% 8%">De tu amorcito. 💕</p>
+    </div>
+</body>
+</html>
+
